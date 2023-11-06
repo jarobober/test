@@ -1,4 +1,4 @@
-xunlayer.registerTool({
+unlayer.registerTool({
   name: "usercom_attr_clientuser",
   label: "User",
   icon: "fa-user",
