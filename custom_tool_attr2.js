@@ -239,6 +239,8 @@ unlayer.registerTool({
     exporters: {
       web(values) {
         console.log("yyy", Object.keys(values));
+        console.log("hideMobile", values.hideMobile);
+        console.log("hideMobile", values.hideDesktop);
         let maxLength = null;
         const value = values.attrClientuser.split("&");
         let hideDesktop = false;
