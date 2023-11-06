@@ -238,7 +238,7 @@ unlayer.registerTool({
     }),
     exporters: {
       web(values) {
-        console.log("@@@", Object.keys(values);
+        console.log("yyy", Object.keys(values));
         let maxLength = null;
         const value = values.attrClientuser.split("&");
         let hideDesktop = false;
