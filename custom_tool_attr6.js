@@ -248,7 +248,7 @@ unlayer.registerTool({
         let hideDesktop = false;
         if (
           values.hasOwnProperty("_override") &&
-          values._override.hasOwnProperty("desktop")
+          values._override.hasOwnProperty("desktop") && values._override.desktop.hideDesktop !== undefined
         ) {
           console.log('x desktop', values._override.desktop)
           hideDesktop = values._override.desktop.hideDesktop;
@@ -256,7 +256,7 @@ unlayer.registerTool({
         let hideMobile = false;
         if (
           values.hasOwnProperty("_override") &&
-          values._override.hasOwnProperty("mobile")
+          values._override.hasOwnProperty("mobile") && values._override.mobile.hideMobile !== undefined
         ) {
           console.log('x mobile', values._override.mobile)
           hideMobile = values._override.mobile.hideMobile;
