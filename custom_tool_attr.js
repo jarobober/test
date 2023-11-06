@@ -1,4 +1,4 @@
-unlayer.registerTool({
+xunlayer.registerTool({
   name: "usercom_attr_clientuser",
   label: "User",
   icon: "fa-user",
@@ -238,7 +238,7 @@ unlayer.registerTool({
     }),
     exporters: {
       web(values) {
-        console.log("@@@", ...values);
+        console.dir("@@@", values);
         let maxLength = null;
         const value = values.attrClientuser.split("&");
         let hideDesktop = false;
