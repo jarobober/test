@@ -238,7 +238,7 @@ xunlayer.registerTool({
     }),
     exporters: {
       web(values) {
-        console.dir("@@@", values);
+        console.log("@@@", Object.keys(values);
         let maxLength = null;
         const value = values.attrClientuser.split("&");
         let hideDesktop = false;
