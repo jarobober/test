@@ -240,10 +240,9 @@ unlayer.registerTool({
       web(values) {
         console.log("yyy", Object.keys(values));
         console.log("hideMobile", values.hideMobile);
-        console.log("hideDesktop", values.hideDesktop);
+        console.log("override", values._override);
         console.log("hideable", values.hideable);
         console.log("attrClientuser", values.attrClientuser);
-        console.log("data", values.data);
         let maxLength = null;
         const value = values.attrClientuser.split("&");
         let hideDesktop = false;
